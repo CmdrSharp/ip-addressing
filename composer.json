@@ -1,0 +1,27 @@
+{
+  "name": "cmdrsharp/ip-addressing",
+  "description": "A collection of traits for IP Operations.",
+  "type": "libr",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "prefer-stable": true,
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "CmdrSharp\\IpAddressing\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CmdrSharp\\IpAddressing\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
