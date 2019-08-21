@@ -4,7 +4,7 @@ namespace CmdrSharp\IpAddressing\Exceptions;
 
 use InvalidArgumentException;
 
-class InvalidIpException extends InvalidArgumentException
+class InvalidCidrException extends InvalidArgumentException
 {
     public function __construct($message, $code = 0, Exception $previous = null)
     {

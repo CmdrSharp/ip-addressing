@@ -21,4 +21,16 @@ trait Subnet
 
         return 32 - log((ip2long($netmask) ^ ip2long('255.255.255.255')) + 1, 2);
     }
+
+    /**
+     * @param int $cidr
+     * @return string
+     * @throws InvalidCidrException
+     */
+    public function getNetmaskFromCidr(int $cidr): string
+    {
+        Validation::validateCidr($cidr);
+
+        return long2ip(-1 << (32 - (int)$cidr));
+    }
 }
