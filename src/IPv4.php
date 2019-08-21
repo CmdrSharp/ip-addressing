@@ -2,7 +2,6 @@
 
 namespace CmdrSharp\IpAddressing;
 
-use CmdrSharp\IpAddressing\Exceptions\InvalidIpException;
 use CmdrSharp\IpAddressing\Helpers\Validation;
 
 trait IPv4

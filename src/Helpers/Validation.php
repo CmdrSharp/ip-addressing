@@ -2,6 +2,8 @@
 
 namespace CmdrSharp\IpAddressing\Helpers;
 
+use CmdrSharp\IpAddressing\Exceptions\InvalidIpException;
+
 class Validation
 {
     /**
