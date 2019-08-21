@@ -1,4 +1,9 @@
 # About
+[![Latest Stable Version](https://poser.pugx.org/cmdrsharp/ip-addressing/v/stable)](https://packagist.org/packages/cmdrsharp/ip-addressing)
+[![Build Status](https://travis-ci.org/CmdrSharp/ip-addressing.svg?branch=master)](https://travis-ci.org/CmdrSharp/ip-addressing)
+[![StyleCI](https://github.styleci.io/repos/203584133/shield?branch=master)](https://github.styleci.io/repos/203584133)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 A trait for general IP operations. New traits may be added over time.
 
 # Current Requirements
